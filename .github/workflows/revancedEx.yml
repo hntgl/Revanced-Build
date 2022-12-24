@@ -1,4 +1,4 @@
-name: ReVanced
+name: ReVancedEX
 
 on:
   workflow_dispatch:
