@@ -13,7 +13,7 @@ jobs:
       - name: Checkout private tools
         uses: actions/checkout@v3
         with:
-          repository: hntgl/YT-Re
+          repository: ${{ secrets.GH_PRIVATE_REPO}}
           token: ${{ secrets.GH_PAT }} 
           path: ./
       
