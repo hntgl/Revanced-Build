@@ -48,7 +48,7 @@ jobs:
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "${{ env.date_now_nodashes }}-yt"
-          title: "ReVanced ${{ env.date_now }}"
+          title: "ReVanced Extended ${{ env.date_now }}"
           prerelease: false
           files: |
             build/*signed.apk
