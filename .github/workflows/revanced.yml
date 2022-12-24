@@ -15,7 +15,7 @@ jobs:
         with:
           repository: hntgl/YT-Re
           token: ${{ secrets.GH_PAT }} 
-          path: scripts
+          path: home
       
       - name: Setup JDK
         uses: actions/setup-java@v3.3.0
