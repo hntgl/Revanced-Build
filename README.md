@@ -1,4 +1,4 @@
-[Download](https://github.com/hntgl/Revanced-Build/releases/latest) ![downloadCount](https://img.shields.io/github/downloads/hntgl/Revanced-Build/total?label=Downloads)
+###[Download](https://github.com/hntgl/Revanced-Build/releases/latest) ![downloadCount](https://img.shields.io/github/downloads/hntgl/Revanced-Build/total?label=Downloads)
 # Latest supported versions
 - YouTube: `17.49.37`
 
