@@ -1,9 +1,7 @@
 
 ![CI](https://github.com/hntgl/Revanced-Build/workflows/CI/badge.svg)
-2
 ![GitHub All Releases](https://img.shields.io/github/downloads/hntgl/Revanced-Build/total)
-3
-[![release](https://img.shields.io/github/release/hntgl/rt-n56u.svg)](https://github.com/hntgl/Revanced-Build/releases)
+[![release](https://img.shields.io/github/release/hntgl/Revanced-Build.svg)](https://github.com/hntgl/Revanced-Build/releases)
 # Latest supported versions
 - YouTube: `17.49.37`
 
