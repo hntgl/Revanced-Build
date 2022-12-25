@@ -1,5 +1,3 @@
-
-![CI](https://github.com/hntgl/Revanced-Build/workflows/CI/badge.svg)
 ![GitHub All Releases](https://img.shields.io/github/downloads/hntgl/Revanced-Build/total)
 [![release](https://img.shields.io/github/release/hntgl/Revanced-Build.svg)](https://github.com/hntgl/Revanced-Build/releases)
 # Latest supported versions
