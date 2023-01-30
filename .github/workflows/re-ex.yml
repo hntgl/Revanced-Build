@@ -12,7 +12,7 @@ jobs:
       - name: Checkout private tools
         uses: actions/checkout@v3
         with:
-          repository: ${{ secrets.GH_PRIVATE_REPO}}
+          repository: ${{ secrets.GH_PRIVATE_REPO2}}
           token: ${{ secrets.GH_PAT }} 
           path: ./
       
