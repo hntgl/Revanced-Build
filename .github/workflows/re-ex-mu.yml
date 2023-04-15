@@ -36,7 +36,7 @@ jobs:
           tag_name: V${{ env.VS }}
           files: |
             upload/*
-            microg.apk
+            microg*.apk
   build2:
     name: 'Complete'
     runs-on: ubuntu-latest
