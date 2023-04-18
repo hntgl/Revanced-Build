@@ -33,7 +33,7 @@ jobs:
           body: <strong>Patches v${{ env.VS_PATCHES }} <br />Cli v${{ env.VS_CLI }}  <br />Integrations v${{ env.VS_INTERGAITIONS }}</strong>
           token: ${{ github.token }}
           name: Re Ex Android 6.0 ${{ env.VS }}
-          tag_name: YT6-${{ env.VS }}
+          tag_name: YT-${{ env.VS }}
           files: |
             upload/*
   build2:
