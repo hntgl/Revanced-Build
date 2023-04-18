@@ -1,0 +1,52 @@
+name: Re-Ex 6
+on:
+  workflow_dispatch:
+  
+jobs:
+  build1:
+    name: 'Re Ex 6'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Checkout private tools
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ secrets.GH_PRIVATE_REPO2}}
+          token: ${{ secrets.GH_PAT }} 
+          path: ./
+      
+      - name: Setup JDK
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+          
+      - name: Update the system
+        run: sudo apt install curl ripgrep
+       
+      - name: Build APK
+        run: chmod +x scripts/build6.sh && ./scripts/build6.sh -y
+      - name: Upload File
+        uses: softprops/action-gh-release@v1
+        with:
+          body: <strong>Patches v${{ env.VS_PATCHES }} <br />Cli v${{ env.VS_CLI }}  <br />Integrations v${{ env.VS_INTERGAITIONS }}</strong>
+          token: ${{ github.token }}
+          name: Re Ex Android 6.0 ${{ env.VS }}
+          tag_name: YT6-${{ env.VS }}
+          files: |
+            upload/*
+  build2:
+    name: 'Complete'
+    runs-on: ubuntu-latest
+    needs:
+      - build1
+    steps:
+      - uses: actions/checkout@v3
+      - name: Delete workflow runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          retain_days: 1
+          keep_minimum_runs: 0
