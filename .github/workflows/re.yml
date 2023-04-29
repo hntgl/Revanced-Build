@@ -1,4 +1,4 @@
-name: Re-Ex 6
+name: Re
 on:
   workflow_dispatch:
   
