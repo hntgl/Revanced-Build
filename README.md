@@ -1,39 +1,4 @@
 ![GitHub All Releases](https://img.shields.io/github/downloads/hntgl/Revanced-Build/total)
 [![release](https://img.shields.io/github/release/hntgl/Revanced-Build.svg)](https://github.com/hntgl/Revanced-Build/releases)
 
-## Patchs
-```enable-external-browser``` 
-```enable-hdr-auto-brightness``` 
-```enable-minimized-playback``` 
-```enable-oldstyle-quality-layout``` 
-```enable-open-links-directly``` 
-```force-premium-heading``` 
-```hide-auto-player-popup-panels``` 
-```hide-autoplay-button``` 
-```hide-button-container``` 
-```hide-cast-button``` 
-```hide-channel-watermark``` 
-```hide-create-button``` 
-```hide-email-address``` 
-```hide-endscreen-cards``` 
-```hide-endscreen-overlay``` 
-```hide-general-ads``` 
-```hide-info-cards``` 
-```hide-mix-playlists``` 
-```hide-pip-notification``` 
-```hide-shorts-button``` 
-```hide-shorts-component``` 
-```hide-startup-shorts-player``` 
-```hide-stories``` 
-```hide-suggested-actions``` 
-```hide-video-ads``` 
-```microg-support``` 
-```optimize-resource``` 
-```overlay-buttons``` 
-```patch-options``` 
-```remove-player-button-background``` 
-```settings``` 
-```sponsorblock``` 
-```swipe-controls``` 
-```theme``` 
-```translations``` 
+[Download MicroG 0.2.27.231613](https://github.com/inotia00/mMicroG/releases/download/v0.2.27.231613/microg.apk)
