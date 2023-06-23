@@ -32,7 +32,7 @@ jobs:
         with:
           body: <strong>Patches v${{ env.VS_PATCHES }} <br />Cli v${{ env.VS_CLI }}  <br />Integrations v${{ env.VS_INTERGAITIONS }}</strong>
           token: ${{ github.token }}
-          name: Re Ex Music ${{ env.VS }}
+          name: Re Music ${{ env.VS }}
           tag_name: YTM-${{ env.VS }}
           files: |
             upload/*
